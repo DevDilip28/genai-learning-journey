@@ -1,0 +1,1 @@
+[{"role": "user", "text": "hello", "time": "22:36:25"}, {"role": "bot", "text": "Hi! \ud83d\udc4b", "time": "22:36:25"}, {"role": "user", "text": "genai", "time": "22:36:31"}, {"role": "bot", "text": "GenAI creates text, images, and code.", "time": "22:36:31"}, {"role": "user", "text": "", "time": "22:40:03"}, {"role": "bot", "text": "You said: ", "time": "22:40:03"}]
