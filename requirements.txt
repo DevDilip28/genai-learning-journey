@@ -2,3 +2,5 @@ ipykernel
 numpy
 pandas
 nltk
+sklearn
+gensim 
