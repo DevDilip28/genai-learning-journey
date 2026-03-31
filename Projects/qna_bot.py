@@ -17,13 +17,18 @@ for message in st.session_state.messages:
     content = message["content"]
     st.chat_message(role).markdown(content)
 
+history = []
+
 query = st.chat_input("Ask me anything...")
 
 if query:
+    history.append({"role": "user", "content": query})
     st.session_state.messages.append({"role": "user", "content": query})
     st.chat_message("user").markdown(query)
 
-    res = llm.invoke(query)
+    res = llm.invoke(history)
+
+    history.append({"role": "ai", "content": res.content}) 
 
     st.chat_message("ai").markdown(res.content)  
     st.session_state.messages.append({"role": "ai", "content": res.content}) 
