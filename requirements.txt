@@ -13,3 +13,6 @@ langchain-groq
 langchain[google-genai]
 streamlit 
 langchain-ollama
+langchain_huggingface
+chromadb
+langchain-chroma
