@@ -12,3 +12,4 @@ langchain-openai
 langchain-groq 
 langchain[google-genai]
 streamlit 
+langchain-ollama
