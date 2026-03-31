@@ -2,7 +2,7 @@ ipykernel
 numpy
 pandas
 nltk
-sklearn
+scikit-learn
 gensim 
 transformers
 torch
@@ -11,3 +11,4 @@ langchain
 langchain-openai 
 langchain-groq 
 langchain[google-genai]
+streamlit 
