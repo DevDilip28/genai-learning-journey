@@ -1,0 +1,21 @@
+Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. These processes include learning, reasoning, and self-correction.
+
+Machine Learning (ML) is a subset of AI that focuses on the development of algorithms that allow computers to learn from and make predictions based on data. Deep Learning is a further subset that uses neural networks with many layers.
+
+Large Language Models (LLMs) are AI models trained on massive amounts of text data. They can understand and generate human-like language. Examples include GPT models, Claude, and LLaMA.
+
+One limitation of LLMs is that they do not have real-time knowledge and may hallucinate incorrect information. This is where Retrieval-Augmented Generation (RAG) comes in.
+
+RAG is a technique that combines retrieval and generation. It retrieves relevant information from external data sources and provides it as context to the LLM before generating a response.
+
+In a typical RAG system, documents are first loaded and split into smaller chunks. These chunks are converted into embeddings (vector representations) and stored in a vector database.
+
+When a user asks a question, the query is also converted into an embedding. The system then retrieves the most similar chunks from the vector database using similarity search.
+
+These retrieved chunks are passed to the LLM along with the user query. The LLM generates a response grounded in this context, reducing hallucinations and improving accuracy.
+
+RAG systems are widely used in applications like document Q&A, customer support chatbots, enterprise search, and AI copilots.
+
+However, building a good RAG system requires careful design choices, including chunk size, embedding model selection, retrieval strategy, and prompt design.
+
+Optimizing these components can significantly improve the performance and reliability of the system.

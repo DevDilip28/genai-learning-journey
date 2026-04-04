@@ -16,3 +16,6 @@ langchain-ollama
 langchain_huggingface
 chromadb
 langchain-chroma
+pypdf
+beautifulsoup4
+wikipedia
