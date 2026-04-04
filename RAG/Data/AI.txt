@@ -1,0 +1,170 @@
+# Introduction to Artificial Intelligence
+
+Artificial Intelligence (AI) refers to the simulation of human intelligence in machines. These machines are designed to think, learn, and make decisions similarly to humans. AI systems can perform tasks such as problem-solving, speech recognition, decision-making, and language translation.
+
+AI can be categorized into three types:
+1. Narrow AI – Designed for a specific task (e.g., chatbots, recommendation systems)
+2. General AI – Can perform any intellectual task like humans (still theoretical)
+3. Super AI – Surpasses human intelligence (future concept)
+
+---
+
+# Machine Learning Basics
+
+Machine Learning (ML) is a subset of AI that allows systems to learn from data instead of being explicitly programmed.
+
+Types of Machine Learning:
+- Supervised Learning: Uses labeled data
+- Unsupervised Learning: Finds patterns in unlabeled data
+- Reinforcement Learning: Learns via rewards and penalties
+
+Common algorithms include:
+- Linear Regression
+- Decision Trees
+- Neural Networks
+
+---
+
+# Natural Language Processing (NLP)
+
+NLP enables machines to understand and process human language.
+
+Key tasks in NLP:
+- Tokenization
+- Named Entity Recognition (NER)
+- Sentiment Analysis
+- Text Classification
+
+Applications:
+- Chatbots
+- Language translation
+- Voice assistants
+
+---
+
+# Large Language Models (LLMs)
+
+Large Language Models like GPT are trained on massive datasets and can generate human-like text.
+
+Key characteristics:
+- Transformer architecture
+- Attention mechanism
+- Pretraining + Fine-tuning
+
+Examples:
+- GPT models
+- BERT
+- LLaMA
+
+---
+
+# Retrieval-Augmented Generation (RAG)
+
+RAG is a technique that combines retrieval and generation.
+
+Steps in RAG:
+1. User query is received
+2. Relevant documents are retrieved from a vector database
+3. Retrieved context is passed to LLM
+4. LLM generates answer using that context
+
+Benefits:
+- Reduces hallucination
+- Uses external knowledge
+- More accurate responses
+
+---
+
+# Vector Databases
+
+Vector databases store embeddings (numerical representations of text).
+
+Popular vector databases:
+- Pinecone
+- Weaviate
+- FAISS
+- Chroma
+
+Key operations:
+- Insert embeddings
+- Similarity search
+- Indexing
+
+---
+
+# Embeddings
+
+Embeddings convert text into vectors.
+
+Example:
+"Cat" → [0.12, -0.45, 0.67, ...]
+
+Purpose:
+- Capture semantic meaning
+- Enable similarity search
+
+Used in:
+- Search engines
+- Recommendation systems
+- RAG pipelines
+
+---
+
+# Chunking in RAG
+
+Chunking is the process of breaking large documents into smaller pieces.
+
+Why chunking is important:
+- LLM context limit
+- Better retrieval accuracy
+- Efficient processing
+
+Types of chunking:
+1. Fixed-size chunking
+2. Recursive chunking
+3. Semantic chunking
+
+Best practices:
+- Keep chunk size between 200–500 tokens
+- Add overlap (20–50 tokens)
+- Preserve meaning
+
+---
+
+# Example Use Case
+
+User asks: "What is Machine Learning?"
+
+System flow:
+- Query converted into embedding
+- Similar chunks retrieved
+- Context sent to LLM
+- LLM generates answer
+
+---
+
+# Challenges in RAG
+
+- Poor chunking → bad retrieval
+- Irrelevant context → wrong answers
+- Embedding mismatch
+- Latency issues
+
+Solutions:
+- Better chunking strategies
+- Re-ranking
+- Hybrid search (keyword + vector)
+
+---
+
+# Future of RAG
+
+RAG is widely used in:
+- AI copilots
+- Enterprise search
+- Document Q&A systems
+
+Future improvements:
+- Better retrieval models
+- Multi-modal RAG (text + images)
+- Real-time knowledge updates
