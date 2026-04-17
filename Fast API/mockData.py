@@ -16,5 +16,11 @@ products = [
         "name": "Headphones",
         "price": 2000,
         "description": "Noise-cancelling headphones for an immersive audio experience."
+    },
+    {
+        "id": 4,
+        "name": "Smart Watch",
+        "price": 15000,
+        "description": "A smart watch with fitness tracking and notifications."
     }
 ]
